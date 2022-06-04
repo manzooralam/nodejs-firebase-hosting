@@ -1,0 +1,44 @@
+{
+  "name": "manzoor.express.learning",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzooralam/nodejs-firebase-hosting.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Firebase",
+    "Hosting",
+    "Cloud",
+    "function",
+    "Express",
+    "Template"
+  ],
+  "author": "Manzoor Alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manzooralam/nodejs-firebase-hosting/issues"
+  },
+  "homepage": "https://github.com/manzooralam/nodejs-firebase-hosting#readme"
+}
